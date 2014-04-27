@@ -25,7 +25,8 @@ a folder called the same as the .zip file (getdata-projectfiles-UCI HAR Dataset.
 * "C:/Users/LukeSkyWalker/Documents/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset", and here you have
 some files and "test" and "train" folders.
 
-In this case, and having your working directory as mentioned above, you must call "loadData" function in two ways:
+In this case, and having your working directory as mentioned above, you can call "loadData" function in two ways,
+with either absolute or relative path:
 
 * loadData("C:/Users/LukeSkyWalker/Documents/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 * loadData("getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
